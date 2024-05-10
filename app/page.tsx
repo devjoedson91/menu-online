@@ -25,8 +25,8 @@ export default async function Home() {
         conheça nosso menu
       </h2>
       <div className="px-3">
-        <div className="mx-auto my-6 max-w-7xl rounded-xl bg-red-500 px-2 text-white">
-          <h2 className="text-center text-2xl font-bold">Hamburguers</h2>
+        <div className="mx-auto my-6 max-w-7xl rounded-xl bg-red-500 py-1 text-white">
+          <h2 className="text-center text-2xl font-bold">Pratos Populares</h2>
         </div>
         <main className="mx-auto mb-16 grid max-w-7xl grid-cols-1 gap-7 px-2 md:grid-cols-2 md:gap-10">
           {products.slice(0, 8).map((product) => {
