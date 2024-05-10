@@ -45,7 +45,7 @@ export default async function Home() {
         </main>
 
         <div className="mx-auto my-6 max-w-7xl rounded-xl bg-red-500 px-2 text-white">
-          <h2 className="text-center text-2xl font-bold">Bebidas</h2>
+          <h2 className="text-center font-bold xl:text-2xl">Bebidas</h2>
         </div>
 
         <div className="mx-auto mb-16 grid max-w-7xl grid-cols-1 gap-7 px-2 md:grid-cols-2 md:gap-10">
