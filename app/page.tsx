@@ -24,8 +24,8 @@ export default async function Home() {
       <h2 className="my-9 text-center text-2xl font-bold capitalize md:text-3xl">
         conheça nosso menu
       </h2>
-      <div>
-        <div className="ounded-lg mx-auto my-6 max-w-7xl rounded-xl bg-red-500 px-2 text-white">
+      <div className="px-3">
+        <div className="mx-auto my-6 max-w-7xl rounded-xl bg-red-500 px-2 text-white">
           <h2 className="text-center text-2xl font-bold">Hamburguers</h2>
         </div>
         <main className="mx-auto mb-16 grid max-w-7xl grid-cols-1 gap-7 px-2 md:grid-cols-2 md:gap-10">

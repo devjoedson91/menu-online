@@ -24,9 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.className} bg-whiteDefault`}>
         <AuthProvider>
-          <CartProvider>
-            {children}
-          </CartProvider>
+          <CartProvider>{children}</CartProvider>
         </AuthProvider>
         <Toaster />
       </body>
