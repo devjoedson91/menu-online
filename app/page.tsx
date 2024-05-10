@@ -6,7 +6,7 @@ import { prismaClient } from "@/lib/prisma";
 export default async function Home() {
   const products = await prismaClient.product.findMany({
     where: {
-      categoryId: "78869090-6c67-4533-bee0-26fa6f5c0f40",
+      categoryId: "869e52f9-11af-4ab0-b400-7ca560bbe270",
     },
   });
 
@@ -29,7 +29,7 @@ export default async function Home() {
           <h2 className="text-center text-2xl font-bold">Hamburguers</h2>
         </div>
         <main className="mx-auto mb-16 grid max-w-7xl grid-cols-1 gap-7 px-2 md:grid-cols-2 md:gap-10">
-          {products.slice(0, 6).map((product) => {
+          {products.slice(0, 8).map((product) => {
             return (
               <ProductCard
                 key={product.id}
